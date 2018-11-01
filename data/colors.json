@@ -1,6 +1,6 @@
 [
   {
-    locale: "shanghai",
+    "locale": "shanghai",
     name: "dragons",
     colors: [
       "#d22730",
