@@ -4,7 +4,7 @@
 
 <h2>OWL Teams</h2>
 <ul class="teams">
-  <li *ngFor="let t of allteams">
+  <li *ngFor="let t of allTeams">
     {{t.locale | titlecase}} {{t.name | titlecase}}:
     <span class="badge" *ngFor="let c of t.colors">{{c}}</span>
   </li>

@@ -15,7 +15,7 @@ export class TeamsComponent implements OnInit {
     colors: [''],
   };
 
-  allteams: Team[];
+  allTeams: Team[];
 
   constructor(
     private teamService: TeamService
@@ -23,7 +23,7 @@ export class TeamsComponent implements OnInit {
 
   getTeams(): void {
     this.teamService.getTeams()
-      .subscribe(teams => this.allteams = teams);
+      .subscribe((data) => this.allTeams = <Team[]>data);
   }
 
   ngOnInit() {
