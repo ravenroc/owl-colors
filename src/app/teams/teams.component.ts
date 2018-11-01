@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Team } from '../team';
-import { OWLTEAMS } from '../teams';
+import { TeamService } from '../team.service';
 
 @Component({
   selector: 'app-teams',
@@ -12,14 +12,22 @@ export class TeamsComponent implements OnInit {
   mockteam: Team = {
     locale: 'vancouver',
     name: 'skaters',
-    colors: [],
+    colors: [''],
   };
 
-  allteams = OWLTEAMS;
+  allteams: Team[];
 
-  constructor() { }
+  constructor(
+    private teamService: TeamService
+  ) { }
+
+  getTeams(): void {
+    this.teamService.getTeams()
+      .subscribe(teams => this.allteams = teams);
+  }
 
   ngOnInit() {
+    this.getTeams();
   }
 
 }
