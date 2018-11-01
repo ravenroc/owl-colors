@@ -1,0 +1,10 @@
+@import '_variables';
+@import '_mixins';
+
+body {
+  font-family: Helvetica, Tahoma, sans-serif;
+
+  h1 {
+    color: red;
+  }
+}
