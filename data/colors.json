@@ -1,4 +1,4 @@
-{
+[
   {
     locale: "shanghai",
     name: "dragons",
@@ -125,4 +125,4 @@
       "#8e9eac",
     ],
   },
-}
+]
