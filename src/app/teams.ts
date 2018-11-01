@@ -1,4 +1,6 @@
-[
+import { Team } from './team';
+
+export const OWLTEAMS: Team[] = [
   {
     locale: "shanghai",
     name: "dragons",
