@@ -10,7 +10,7 @@ import { OWLTEAMS } from './teams';
 })
 export class TeamService {
 
-  private teamsUrl = 'https://raw.githubusercontent.com/ravenroc/owl-colors/master/data/colors.json';
+  private teamsUrl = 'assets/colors.json';
   allTeams: Team[];
 
 
@@ -18,16 +18,11 @@ export class TeamService {
     private http: HttpClient
   ) { }
 
-  getTeams(): Observable<Team[]> {
-    return of(OWLTEAMS);
-  }
-
   // getTeams(): Observable<Team[]> {
-  //   return this.http.get<Team[]>(this.teamsUrl)
-  //     .subscribe(
-  //       data => {
-  //         this.allTeams = data as Team[];
-  //       }
-  //     );
+  //   return of(OWLTEAMS);
   // }
+
+  getTeams(): Observable<Team[]> {
+    return this.http.get<Team[]>(this.teamsUrl);
+  }
 }
