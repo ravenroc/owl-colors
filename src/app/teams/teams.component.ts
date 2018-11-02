@@ -15,15 +15,15 @@ export class TeamsComponent implements OnInit {
     colors: [''],
   };
 
-  allteams: Team[];
+  allTeams: Team[];
 
   constructor(
     private teamService: TeamService
   ) { }
 
-  getTeams(): void {
+  getTeams() {
     this.teamService.getTeams()
-      .subscribe(teams => this.allteams = teams);
+      .subscribe((data: Team[]) => this.allTeams = data);
   }
 
   ngOnInit() {

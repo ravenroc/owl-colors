@@ -3,14 +3,13 @@ import { Observable, of } from 'rxjs';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 import { Team } from './team';
-import { OWLTEAMS } from './teams';
 
 @Injectable({
   providedIn: 'root'
 })
 export class TeamService {
 
-  private teamsUrl = 'https://raw.githubusercontent.com/ravenroc/owl-colors/master/data/colors.json';
+  private teamsUrl = 'assets/colors.json';
   allTeams: Team[];
 
 
@@ -19,15 +18,6 @@ export class TeamService {
   ) { }
 
   getTeams(): Observable<Team[]> {
-    return of(OWLTEAMS);
+    return this.http.get<Team[]>(this.teamsUrl);
   }
-
-  // getTeams(): Observable<Team[]> {
-  //   return this.http.get<Team[]>(this.teamsUrl)
-  //     .subscribe(
-  //       data => {
-  //         this.allTeams = data as Team[];
-  //       }
-  //     );
-  // }
 }
