@@ -21,9 +21,9 @@ export class TeamsComponent implements OnInit {
     private teamService: TeamService
   ) { }
 
-  getTeams(): void {
+  getTeams() {
     this.teamService.getTeams()
-      .subscribe((data) => this.allTeams = <Team[]>data);
+      .subscribe((data: Team[]) => this.allTeams = data);
   }
 
   ngOnInit() {
