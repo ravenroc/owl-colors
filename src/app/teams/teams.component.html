@@ -1,6 +1,14 @@
 <ul class="list-group teams">
-  <li class="list-group-item" *ngFor="let t of allTeams">
-    {{t.locale | titlecase}} {{t.name | titlecase}}:
-    <span class="badge" *ngFor="let c of t.colors">{{c}}</span>
+  <li class="list-group-item team" *ngFor="let t of allTeams">
+    <div class="team-name">
+      {{t.locale | titlecase}} {{t.name | titlecase}}
+    </div>
+    <div
+      class="text-monospace color-item"
+      *ngFor="let c of t.colors"
+      [ngStyle]="{'backgroundColor': c }"
+    >
+      <span class="color-text">{{c}}</span>
+    </div>
   </li>
 </ul>
