@@ -9,12 +9,6 @@ import { TeamService } from '../team.service';
 })
 export class TeamsComponent implements OnInit {
 
-  mockteam: Team = {
-    locale: 'vancouver',
-    name: 'skaters',
-    colors: [''],
-  };
-
   allTeams: Team[];
 
   constructor(
