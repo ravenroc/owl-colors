@@ -1,14 +1,22 @@
-<ul class="list-group teams">
-  <li class="list-group-item team" *ngFor="let t of allTeams">
-    <div class="team-name">
-      {{t.locale | titlecase}} {{t.name | titlecase}}
+<div class="team-cards">
+  <div
+  class="card"
+  *ngFor="let t of allTeams"
+  [ngStyle]="{'borderColor': t.colors[0] }"
+  >
+    <div class="card-body">
+      <h5 class="card-title">
+        {{t.locale | titlecase}} {{t.name | titlecase}}
+      </h5>
     </div>
-    <div
-      class="text-monospace color-item"
-      *ngFor="let c of t.colors"
-      [ngStyle]="{'backgroundColor': c }"
-    >
-      <span class="color-text">{{c}}</span>
+    <div class="card-footer" [ngStyle]="{'borderColor': t.colors[0] }">
+      <div
+        class="text-monospace color-item"
+        *ngFor="let c of t.colors"
+        [ngStyle]="{'backgroundColor': c }"
+      >
+        <span class="color-text">{{c}}</span>
+      </div>
     </div>
-  </li>
-</ul>
+  </div>
+</div>

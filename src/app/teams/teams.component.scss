@@ -1,53 +1,100 @@
 @import '~sass/_variables';
 
 .teams {
-  max-width: 800px;
-  margin: auto;
+  // max-width: 800px;
+  // margin: auto;
 }
 
-.team {
+.team-cards {
   display: flex;
-  align-items: center;
-  padding: 0;
-  border-color: $black;
-  overflow: hidden;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
 
-  .team-name {
-    flex-grow: 1;
-    padding: 0.75rem 1.25rem;
-  }
-
-  .color-item {
-    align-self: stretch;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 2rem;
-    color: transparent;
-    border-left: 1px solid $black;
-    transition: width .25s;
-    overflow: hidden;
-
-    .color-text {
-      border: 1px solid $black;
-      border-radius: .25em;
-      background-color: #fff;
-      font-size: 0.67em;
-      padding: 0.5em 1em;
-      box-shadow: inset 0 0 .5em rgba($black, 0.25);
-      opacity: 0;
-      transition: opacity .25s;
-    }
-  }
+.card {
+  flex: 0 0 auto;
+  margin-bottom: 1em;
+  width: 20rem;
 
   &:hover {
-    .color-item {
-      width: 8rem;
-      color: $black;
-
-      .color-text {
-        opacity: 1;
-      }
+    .color-text {
+      opacity: 1;
+      right: auto;
     }
   }
 }
+
+.card-title {
+  text-align: center;
+}
+
+.card-footer {
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.color-item {
+  padding: 0.5rem;
+  flex-grow: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-text {
+  border: 1px solid $black;
+  border-radius: .25em;
+  background-color: #fff;
+  font-size: 0.67em;
+  padding: 0.25em 0.5em;
+  opacity: 0;
+  transition: opacity .25s;
+}
+
+// .team {
+//   display: flex;
+//   align-items: center;
+//   padding: 0;
+//   border-color: $black;
+//   overflow: hidden;
+//
+//   .team-name {
+//     flex-grow: 1;
+//     padding: 0.75rem 1.25rem;
+//   }
+//
+//   .color-item {
+//     align-self: stretch;
+//     display: inline-flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 2rem;
+//     color: transparent;
+//     border-left: 1px solid $black;
+//     transition: width .25s;
+//     overflow: hidden;
+//
+//     .color-text {
+//       border: 1px solid $black;
+//       border-radius: .25em;
+//       background-color: #fff;
+//       font-size: 0.67em;
+//       padding: 0.5em 1em;
+//       box-shadow: inset 0 0 .5em rgba($black, 0.25);
+//       opacity: 0;
+//       transition: opacity .25s;
+//     }
+//   }
+//
+//   &:hover {
+//     .color-item {
+//       width: 8rem;
+//       color: $black;
+//
+//       .color-text {
+//         opacity: 1;
+//       }
+//     }
+//   }
+// }
