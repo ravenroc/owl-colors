@@ -15,6 +15,9 @@
   flex: 0 0 auto;
   margin-bottom: 1em;
   width: 20rem;
+  background-size: 15%;
+  background-repeat: no-repeat;
+  background-position: top right;
 
   &:hover {
     .color-text {
@@ -22,10 +25,90 @@
       right: auto;
     }
   }
+
+  &.charge {
+    background-image: url('/assets/logos/charge.svg');
+  }
+
+  &.defiant {
+    background-image: url('/assets/logos/defiant.svg');
+  }
+
+  &.dragons {
+    background-image: url('/assets/logos/dragons.svg');
+  }
+
+  &.dynasty {
+    background-image: url('/assets/logos/dynasty.svg');
+  }
+
+  &.eternal {
+    background-image: url('/assets/logos/eternal.svg');
+  }
+
+  &.excelsior {
+    background-image: url('/assets/logos/excelsior.svg');
+  }
+
+  &.fuel {
+    background-image: url('/assets/logos/fuel.svg');
+  }
+
+  &.fusion {
+    background-image: url('/assets/logos/fusion.svg');
+  }
+
+  &.gladiators {
+    background-image: url('/assets/logos/gladiators.svg');
+  }
+
+  &.hunters {
+    background-image: url('/assets/logos/hunters.svg');
+  }
+
+  &.justice {
+    background-image: url('/assets/logos/justice.svg');
+  }
+
+  &.mayhem {
+    background-image: url('/assets/logos/mayhem.svg');
+  }
+
+  &.outlaws {
+    background-image: url('/assets/logos/outlaws.svg');
+  }
+
+  &.reign {
+    background-image: url('/assets/logos/reign.svg');
+  }
+
+  &.shock {
+    background-image: url('/assets/logos/shock.svg');
+  }
+
+  &.spark {
+    background-image: url('/assets/logos/spark.svg');
+  }
+
+  &.spitfire {
+    background-image: url('/assets/logos/spitfire.svg');
+  }
+
+  &.titans {
+    background-image: url('/assets/logos/titans.svg');
+  }
+
+  &.uprising {
+    background-image: url('/assets/logos/uprising.svg');
+  }
+
+  &.valiant {
+    background-image: url('/assets/logos/valiant.svg');
+  }
 }
 
 .card-title {
-  text-align: center;
+  // text-align: center;
 }
 
 .card-footer {

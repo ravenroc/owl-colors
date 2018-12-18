@@ -3,6 +3,7 @@
   class="card"
   *ngFor="let t of allTeams"
   [ngStyle]="{'borderColor': t.colors[0] }"
+  [ngClass]="t.name"
   >
     <div class="card-body">
       <h5 class="card-title">
