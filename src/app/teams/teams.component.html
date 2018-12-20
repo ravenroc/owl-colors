@@ -3,10 +3,12 @@
   class="card"
   *ngFor="let t of allTeams"
   [ngStyle]="{'borderColor': t.colors[0] }"
+  [ngClass]="t.name"
   >
     <div class="card-body">
       <h5 class="card-title">
-        {{t.locale | titlecase}} {{t.name | titlecase}}
+        <span class="team-locale">{{t.locale | titlecase}}</span>
+        <span class="team-name">{{t.name | titlecase}}</span>
       </h5>
     </div>
     <div class="card-footer" [ngStyle]="{'borderColor': t.colors[0] }">

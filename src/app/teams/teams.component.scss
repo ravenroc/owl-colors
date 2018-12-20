@@ -15,6 +15,9 @@
   flex: 0 0 auto;
   margin-bottom: 1em;
   width: 20rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
   &:hover {
     .color-text {
@@ -22,10 +25,103 @@
       right: auto;
     }
   }
+
+  &.charge {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/charge.svg');
+  }
+
+  &.defiant {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/defiant.svg');
+  }
+
+  &.dragons {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/dragons.svg');
+  }
+
+  &.dynasty {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/dynasty.svg');
+  }
+
+  &.eternal {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/eternal.svg');
+  }
+
+  &.excelsior {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/excelsior.svg');
+  }
+
+  &.fuel {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/fuel.svg');
+  }
+
+  &.fusion {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/fusion.svg');
+  }
+
+  &.gladiators {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/gladiators.svg');
+  }
+
+  &.hunters {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/hunters.svg');
+  }
+
+  &.justice {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/justice.svg');
+  }
+
+  &.mayhem {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/mayhem.svg');
+  }
+
+  &.outlaws {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/outlaws.svg');
+  }
+
+  &.reign {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/reign.svg');
+  }
+
+  &.shock {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/shock.svg');
+  }
+
+  &.spark {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/spark.svg');
+  }
+
+  &.spitfire {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/spitfire.svg');
+  }
+
+  &.titans {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/titans.svg');
+  }
+
+  &.uprising {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/uprising.svg');
+  }
+
+  &.valiant {
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/valiant.svg');
+  }
 }
 
 .card-title {
   text-align: center;
+
+  .team-name,
+  .team-locale {
+    display: block;
+  }
+
+  .team-locale {
+    font-size: 0.875em;
+  }
+
+  .team-name {
+    text-transform: uppercase;
+  }
 }
 
 .card-footer {
