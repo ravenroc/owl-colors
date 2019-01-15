@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as _ from 'lodash';
 import { Team } from '../team';
 import { TeamService } from '../team.service';
 
@@ -17,7 +18,9 @@ export class TeamsComponent implements OnInit {
 
   getTeams() {
     this.teamService.getTeams()
-      .subscribe((data: Team[]) => this.allTeams = data);
+      .subscribe((data: Team[]) => {
+        this.allTeams = _.sortBy(data, [function(o) { return o.locale; }]);
+      });
   }
 
   ngOnInit() {
