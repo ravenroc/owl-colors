@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as _ from 'lodash';
+import * as $ from 'jquery';
 import { Team } from '../team';
 import { TeamService } from '../team.service';
 
