@@ -1,11 +1,11 @@
-<section class="sortBar mb-3">
-  Sort By:
+<section class="sort-bar mb-3">
+  <span class="sort-bar-label">Sort By:</span>
   <div class="btn-group btn-group-toggle" data-toggle="buttons" role="sort" aria-label="Sort by">
-    <label class="btn btn-secondary active">
+    <label class="btn btn-secondary active" (click)="updateSorting('locale')">
       <input type="radio" name="sortOptions" id="sortByLocale" autocomplete="off" checked />Locale
     </label>
-    <label class="btn btn-secondary">
-      <input type="radio" name="sortOptions" id="sortByTeam" autocomplete="off" />Team
+    <label class="btn btn-secondary" (click)="updateSorting('team')">
+      <input type="radio" name="sortOptions" id="sortByTeam" autocomplete="off" />Team Name
     </label>
   </div>
 </section>
