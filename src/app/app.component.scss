@@ -11,5 +11,16 @@
 }
 
 .body-container {
-  padding: 2rem;
+
+}
+
+.body-footer {
+  border-top: 1px solid $black;
+  font-size: 0.75rem;
+  margin-top: 1rem;
+  padding: 1em;
+
+  p {
+    margin: 0;
+  }
 }
