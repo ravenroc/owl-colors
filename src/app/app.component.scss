@@ -1,26 +1,67 @@
 @import '~sass/_variables';
 
-.page-header {
-  padding-bottom: 1rem;
-}
-
-.page-title {
-  text-align: center;
-  border-bottom: 1px solid $black;
-  padding: 0 0 2rem 0;
+a,
+a:enabled,
+a:active,
+a:hover {
+  color: $black;
+  text-decoration: underline;
 }
 
 .body-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
 
+.page-header {
+  padding: .5rem 1rem;
+  color: $white;
+  background: $owl-black;
+  border-right: 10px solid $owl-orange;
+  border-bottom: 1px solid $black;
+  font-size: 1rem;
+  box-shadow: 0 0 .5em $black;
+  z-index: 5;
+
+  h1.page-title {
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  h2.page-title {
+    font-size: 1em;
+    font-weight: normal;
+  }
+}
+
+.main-body {
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .body-footer {
   border-top: 1px solid $black;
+  border-bottom: 5px solid $owl-orange;
   font-size: 0.75rem;
-  margin-top: 1rem;
   padding: 1em;
+  background: $owl-black;
+  color: $white;
+  box-shadow: 0 0 .5em $black;
+  z-index: 5;
 
   p {
     margin: 0;
+  }
+
+  a,
+  a:enabled,
+  a:active,
+  a:hover {
+    color: $owl-orange;
   }
 }
