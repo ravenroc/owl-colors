@@ -21,18 +21,18 @@
         "locale": "san francisco",
         "name": "shock",
         "colors": [
+            "#a6aeb0",
             "#fc4c01",
-            "#60636a",
-            "#d7c152"
+            "#000000"
         ]
     },
     {
         "locale": "los angeles",
         "name": "valiant",
         "colors": [
-            "#ffd100",
+            "#1888c6",
             "#000000",
-            "#1888c6"
+            "#ffd100"
         ]
     },
     {
