@@ -15,11 +15,6 @@
   }
 }
 
-.teams {
-  // max-width: 800px;
-  // margin: auto;
-}
-
 .team-cards {
   display: flex;
   justify-content: space-around;
@@ -40,83 +35,83 @@
   }
 
   &.charge {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/charge.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/charge.svg');
   }
 
   &.defiant {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/defiant.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/defiant.svg');
   }
 
   &.dragons {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/dragons.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/dragons.svg');
   }
 
   &.dynasty {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/dynasty.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/dynasty.svg');
   }
 
   &.eternal {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/eternal.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/eternal.svg');
   }
 
   &.excelsior {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/excelsior.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/excelsior.svg');
   }
 
   &.fuel {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/fuel.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/fuel.svg');
   }
 
   &.fusion {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/fusion.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/fusion.svg');
   }
 
   &.gladiators {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/gladiators.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/gladiators.svg');
   }
 
   &.hunters {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/hunters.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/hunters.svg');
   }
 
   &.justice {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/justice.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/justice.svg');
   }
 
   &.mayhem {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/mayhem.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/mayhem.svg');
   }
 
   &.outlaws {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/outlaws.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/outlaws.svg');
   }
 
   &.reign {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/reign.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/reign.svg');
   }
 
   &.shock {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/shock.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/shock.svg');
   }
 
   &.spark {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/spark.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/spark.svg');
   }
 
   &.spitfire {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/spitfire.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/spitfire.svg');
   }
 
   &.titans {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/titans.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/titans.svg');
   }
 
   &.uprising {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/uprising.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/uprising.svg');
   }
 
   &.valiant {
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('/assets/logos/valiant.svg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.85) 0%, rgba(255,255,255,0.85) 100%), url('assets/logos/valiant.svg');
   }
 }
 
