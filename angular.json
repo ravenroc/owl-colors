@@ -22,8 +22,8 @@
               ]
             },
             "assets": [
-              "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "node_modules/bootstrap/scss/bootstrap.scss",
@@ -87,8 +87,8 @@
               "src/sass/styles.scss"
             ],
             "assets": [
-              "src/assets",
-              "src/favicon.ico"
+              "src/favicon.ico",
+              "src/assets"
             ]
           }
         },
