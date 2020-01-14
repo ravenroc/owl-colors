@@ -14,7 +14,7 @@ Install dependencies: `npm install`
 
 Start up project: `ng serve`
 
-Build Production: `ng build --prod --output-path docs --base-href owl-colors`
+Build Production: `ng run build-and-deploy`
 
 ## Contact
 
